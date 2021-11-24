@@ -70,7 +70,7 @@ knitr::kable(max_horses,
 
 Below we zoom in and look at the province of Alberta:
 
-```{r plot province, fig.width=5, fig.height=4, fig.cap = "Figure 2. Number of horses for province of focus", out.width = "50%"}
+```{r plot province, fig.width=6, fig.height=4, fig.cap = "Figure 2. Number of horses for province of focus", out.width = "50%"}
 province_plot <- horse_pop %>% 
   filter(GEO == "Alberta") %>% 
   ggplot(aes(x = Ref_Date, y = Value)) +
