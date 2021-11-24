@@ -38,7 +38,7 @@ The R programming language [@R] and the following R packages were used to perfor
  
 ## Results
 
-```{r plot horses, fig.width=10, fig.height=3,fig.cap="Figure 1. Horse populations for all provinces in Canada between 1940 - 1972.", out.width="100%"}
+```{r plot horses, fig.width=10, fig.height=3, fig.cap="Figure 1. Horse populations for all provinces in Canada between 1940 - 1972 ", out.width="100%"}
 horse_plot <- ggplot(horse_pop, aes(x = Ref_Date, y = Value)) +
   geom_point() +
   geom_line() +
