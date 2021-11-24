@@ -1,3 +1,12 @@
+Historical horse population in Canada
+================
+
+-   [Aim](#aim)
+-   [Data](#data)
+-   [Methods](#methods)
+-   [Results](#results)
+-   [Reference](#reference)
+
 ## Aim
 
 This project explores the historical population of horses in Canada
@@ -25,7 +34,7 @@ and create this report can be found here:
 
 ## Results
 
-![](hist_horse_pop_files/figure-markdown_strict/plot%20horses-1.png)
+<img src="hist_horse_pop_files/figure-gfm/plot horses-1.png" title="Figure 1. Horse populations for all provinces in Canada between 1940 - 1972." alt="Figure 1. Horse populations for all provinces in Canada between 1940 - 1972." width="100%" />
 
 We can see from the visualisation above that Ontario, Saskatchewan and
 Alberta have had the highest horse populations in Canada. All provinces
@@ -38,81 +47,51 @@ time period visualised above to further support this hypothesis.
 Next we look at the range of the number horses for each provinces at any
 time point between 1940 - 1972:
 
-<table>
-<caption>Table 1. Maximum and minimum number horses for each province between 1940 - 1972</caption>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Province</th>
-<th style="text-align: right;">Maximum</th>
-<th style="text-align: right;">Minimum</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">Alberta</td>
-<td style="text-align: right;">806200</td>
-<td style="text-align: right;">87000</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">British Columbia</td>
-<td style="text-align: right;">65200</td>
-<td style="text-align: right;">22500</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Manitoba</td>
-<td style="text-align: right;">370800</td>
-<td style="text-align: right;">31000</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">New Brunswick</td>
-<td style="text-align: right;">71000</td>
-<td style="text-align: right;">3200</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Nova Scotia</td>
-<td style="text-align: right;">64500</td>
-<td style="text-align: right;">3600</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Ontario</td>
-<td style="text-align: right;">822300</td>
-<td style="text-align: right;">75400</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Prince Edward Island</td>
-<td style="text-align: right;">36700</td>
-<td style="text-align: right;">2200</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Quebec</td>
-<td style="text-align: right;">378800</td>
-<td style="text-align: right;">39000</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Saskatchewan</td>
-<td style="text-align: right;">1104300</td>
-<td style="text-align: right;">58000</td>
-</tr>
-</tbody>
-</table>
+| Province             | Maximum | Minimum |
+|:---------------------|--------:|--------:|
+| Alberta              |  806200 |   87000 |
+| British Columbia     |   65200 |   22500 |
+| Manitoba             |  370800 |   31000 |
+| New Brunswick        |   71000 |    3200 |
+| Nova Scotia          |   64500 |    3600 |
+| Ontario              |  822300 |   75400 |
+| Prince Edward Island |   36700 |    2200 |
+| Quebec               |  378800 |   39000 |
+| Saskatchewan         | 1104300 |   58000 |
 
 Table 1. Maximum and minimum number horses for each province between
 1940 - 1972
 
 Below we zoom in and look at the province of Alberta:
 
-![](hist_horse_pop_files/figure-markdown_strict/plot%20province-1.png)
+<img src="hist_horse_pop_files/figure-gfm/plot province-1.png" title="Figure 2. Number of horses for province of focus" alt="Figure 2. Number of horses for province of focus" width="50%" />
 
 # Reference
+
+<div id="refs" class="references csl-bib-body hanging-indent">
+
+<div id="ref-R" class="csl-entry">
 
 R Core Team. 2021. *R: A Language and Environment for Statistical
 Computing*. Vienna, Austria: R Foundation for Statistical Computing.
 <https://www.R-project.org/>.
+
+</div>
+
+<div id="ref-tidyverse" class="csl-entry">
 
 Wickham, Hadley, Mara Averick, Jennifer Bryan, Winston Chang, Lucy
 D’Agostino McGowan, Romain François, Garrett Grolemund, et al. 2019.
 “Welcome to the <span class="nocase">tidyverse</span>.” *Journal of Open
 Source Software* 4 (43): 1686. <https://doi.org/10.21105/joss.01686>.
 
+</div>
+
+<div id="ref-knitr" class="csl-entry">
+
 Xie, Yihui. 2021. *Knitr: A General-Purpose Package for Dynamic Report
 Generation in r*. <https://yihui.org/knitr/>.
+
+</div>
+
+</div>
